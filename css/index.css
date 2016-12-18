@@ -1,0 +1,521 @@
+*{
+    padding: 0;margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;height: 100%;
+    overflow: hidden;
+}
+header{
+    width: 100%;height: 66px;
+    background: #00B4FE;
+    position: absolute;top:0;left:0;
+    z-index: 1;
+}
+.header{
+    width: 100%;height: 100%;
+    position: absolute;top:0;left: 0;
+}
+.header .title{
+    width: 4.5rem;height: 0.6rem;
+    position: absolute;top:0.5rem;left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    text-align: center;
+    line-height:0.55rem;
+}
+.header .title li{
+    width: 0.95rem;height: 0.55rem;
+    font-size: 0.3rem;
+    align-self: center;
+    font-weight: 600;
+    color: #aae4fc;
+}
+.header .title .title-active{
+    width: 0.95rem;height: 0.55rem;
+    border-radius: 0.05rem;
+    color:#fff;
+}
+.header .jia{
+    width: 0.7rem;height: 0.6rem;
+    font-size: 0.5rem;
+    text-align: center;line-height: 0.7rem;
+    position: absolute;right: 0;top:0.5rem;
+    background: url("../img/inlogo.png") no-repeat;
+    background-size: contain;
+}
+.swiper-container {
+    width: 100%;
+    height: 3.75rem;
+}
+.swiper-container .swiper-wrapper img{
+    width: 100%;height: 3.75rem;
+}
+
+/*con*/
+#wrapper4 {
+    position: absolute;
+    /*z-index: 1;*/
+    top: 0px;
+    bottom: 48px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+#scroller4 {
+    position: absolute;
+    /*z-index: 1;*/
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+#wrapper2 {
+    position: absolute;
+    /*z-index: 1;*/
+    top: 0px;
+    bottom: 48px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+#scroller2 {
+    position: absolute;
+    /*z-index: 1;*/
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+#wrapper3 {
+    position: absolute;
+    /*z-index: 1;*/
+    top: 0px;
+    bottom: 48px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+#scroller3 {
+    position: absolute;
+    /*z-index: 1;*/
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+.con-box{
+    width: 100%;
+    display: none;
+}
+.con-box2{
+    display: block;
+}
+.con{
+    margin: auto;
+    height: auto;
+}
+.con2{
+    margin-top: 1.32rem;
+}
+.con3{
+    margin-top: 1.3rem;
+}
+.con4{
+    margin-top: 2.1rem;
+}
+.con2 .con2-nei{
+    width: 95%;
+    border-bottom:2px solid #f7f7f7;
+    margin: auto;
+}
+.con2 .con2-nei:nth-child(1){
+    width: 100%;height: 3.8rem;
+}
+.con2 .con2-nei:nth-child(2){
+    width: 7rem;height: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.con2 .con2-nei:nth-child(3){
+    width: 7rem;
+}
+.fenei{
+    width: 1.5rem;height: 1.5rem;
+}
+.fenei img{
+    width: 0.72rem;height: 0.72rem;
+    margin-left: 0.39rem;
+}
+.fenei span{
+    display: block;
+    font-size: 0.22rem;
+    margin-left: 0.29rem;
+}
+.tuij-title{
+    width: 7rem;height: 0.9rem;
+}
+.tuij-title span{
+    display: block;
+    float: left;
+    font-size: 0.3rem;
+    margin-top: 0.28rem;
+    font-weight: 500;
+}
+.tuij-title .gduo{
+    float: right;
+    font-size: 0.26rem;
+}
+.tuij-title-tu{
+    margin-top: 0.28rem;
+    float: left;
+    width: 0.32rem;height: 0.32rem;
+    background: url("../img/jinr.png") no-repeat;
+    background-size: contain;
+}
+.nroo .nroo-nei{
+    width: 100%;height: auto;
+}
+.nroo .nroo-nei .nroo-nei-con{
+    width: 2.1rem;height: 3rem;
+    float: left;
+    margin-right: 0.34rem;
+    position: relative;
+}
+.nroo .nroo-nei .nroo-nei-con:nth-child(3){
+    margin-right: 0;
+}
+.nroo .nroo-nei .nroo-nei-con:nth-child(6){
+    margin-right: 0;
+}
+.nroo .nroo-nei .nroo-nei-con:nth-child(9){
+    margin-right: 0;
+}
+.nroo .nroo-nei .nroo-nei-con img{
+    width: 100%;height: 70%;
+}
+
+
+.tingtu{
+    width: 0.28rem;height: 0.21rem;
+    position: absolute;top:1.8rem;left: 0.06rem;
+    background: url("../img/tingtu.png") no-repeat;
+    background-size: contain;
+}
+.tingzi{
+    display: block;
+    width: 0.55rem;height: 0.18rem;
+    position: absolute;top:1.8rem;left: 0.46rem;
+    color:#fff;font-size: 0.18rem;
+}
+.tingbt{
+    display: block;
+    position: absolute;bottom:0.3rem;left: 0;
+    color:#000;font-size: 0.24rem;
+    font-weight: 500;
+}
+
+
+/*K歌*/
+.ggbanner{
+    width: 100%;height: 1.75rem;
+}
+.ggbanner img{
+    width: 100%;
+}
+.tgbang{
+    width: 7rem;height: 4.5rem;
+    margin: 0 auto;
+}
+.tgbang1{
+    width: 100%;height: 1.8rem;
+    margin-top: 0.26rem;
+    display: flex;
+    justify-content: space-around;
+}
+.tgtu{
+    width: 1.4rem;height: 1.8rem;
+}
+.tgtu img{
+    width: 1.4rem;height: 1.4rem;
+    border-radius: 50%;
+}
+.tg-zi{
+    display: block;
+    text-align: center;
+    font-size: 0.24rem;
+    font-weight: 500;
+    margin-top: -0.1rem;
+}
+.tgbang2{
+    width: 100%;height: 1.8rem;
+    margin-top: 0.26rem;
+    display: flex;
+    justify-content: space-around;
+}
+.singag{
+    width: 7rem;height: 0.35rem;
+    border-left:2px solid #4dcecc;
+    margin: 0 auto;
+}
+.singag span{
+    display: block;
+    font-size: 0.32rem;
+    margin-left: 0.2rem;
+}
+.singag-con{
+    width: 6.7rem;height: auto;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+}
+.singag-con li{
+    width: 100%;height: 0.75rem;
+    margin-bottom: 0.45rem;
+    position: relative;
+}
+.geming{
+    display: block;
+    font-size: 0.3rem;
+}
+.changrs{
+    display: block;
+    font-size: 0.2rem;
+    color:#646363;
+    margin-top: 0.06rem;
+}
+.mkf{
+    width: 0.4rem;height: 0.4rem;
+    position: absolute;top:0.1rem;right:0.1rem;
+    background: url("../img/mkf.png") no-repeat;
+    background-size: contain;
+    opacity: 0.6;
+}
+
+
+/*直播*/
+.zhibotb{
+    width: 6.6rem;height: 4.2rem;
+    margin: 0 auto;
+    margin-top: 1.8rem;
+}
+.zhibotb li{
+    width:1.4rem;height: 1.85rem;
+    float: left;
+    margin-right: 0.32rem;
+    margin-bottom: 0.26rem;
+}
+.zhibotb li:nth-child(4){
+    margin-right: 0;
+}
+.zhibotb li:nth-child(8){
+    margin-right: 0;
+}
+.zhibotb img{
+    width: 1.42rem;
+}
+.zhibotb span{
+    display: block;margin-top: -0.1rem;
+    font-size: 0.3rem;
+    text-align: center;
+}
+.zhibo-title{
+    width: 7rem;height: 0.35rem;
+    border-left:2px solid #4dcecc;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+}
+.zhibo-title span:nth-child(1){
+    display: block;
+    font-size: 0.32rem;
+    margin-left: 0.2rem;
+    float: left;
+}
+.zhibo-title span:nth-child(2){
+    display: block;
+    font-size: 0.28rem;
+    margin-left: 0.2rem;
+    float: right;
+}
+.zhibo-con{
+    width: 7rem;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    overflow: hidden;
+}
+.zhibo-con li{
+    width: 3.45rem;height: 2.9rem;
+    float: left;
+    margin-right: 0.1rem;
+}
+.zhibo-con li:nth-child(2){
+    margin-right: 0;
+}
+.zhibo-con li:nth-child(4){
+    margin-right: 0;
+}
+.zhibo-con li:nth-child(6){
+    margin-right: 0;
+}
+.zhibhz{
+    width: 3.45rem;height: 2.5rem;
+    position: relative;
+}
+.zhibo-tu{
+    width: 0.21rem;height: 0.21rem;
+    background: url("../img/zhibokanren.png") no-repeat;
+    background-size: contain;
+    position: absolute;top:2.1rem;left: 0.1rem;
+}
+.kanrzi{
+    position: absolute;top:2.06rem;left: 0.4rem;
+    font-size: 0.18rem;
+    color: #bebebe;
+}
+.zhibo-xt{
+    width: 0.59rem;height: 0.59rem;
+    background: url("../img/sxj.png") no-repeat;
+    background-size: contain;
+    position: absolute;top:1.7rem;right:0.2rem;
+}
+.zhibr{
+    display: block;
+    font-size: 0.24rem;
+    margin-left: 0.02rem;
+    margin-top: 0.05rem;
+}
+.zhibo-con li img{
+    width: 100%;height: 100%;
+}
+
+/*我的*/
+.wot{
+    width: 100%;height: 2rem;
+    background: #00B4FE;
+    background: url("../img/wbj.JPG") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.touxiang{
+    width: 0.75rem;height: 0.75rem;
+    position: absolute;bottom:0.18rem;left: 2.18rem;
+    background: url("../img/dl.png") no-repeat;
+    background-size: contain;
+}
+.wot a{
+    font-size: 0.3rem;
+    position: absolute;bottom:0.38rem;left: 3.18rem;
+    color:#fff;
+}
+.wode-lb{
+    width: 6.8rem;height: 2.8rem;
+    margin: 0 auto;
+}
+.wode-lb li{
+    width: 100%;height: 0.8rem;
+    margin-top: 0.1rem;
+}
+.wode-lbt1{
+    width: 0.5rem;height:0.5rem;
+    background: url("../img/bdyy.png") no-repeat;
+    background-size: contain;
+    float: left;
+    margin-top: 0.16rem;
+}
+.wode-lb-tm{
+    font-size: 0.3rem;
+    float: left;
+    margin-top: 0.25rem;margin-left: 0.2rem;
+}
+.wode-lb-zs{
+    font-size: 0.22rem;
+    float: left;margin-top: 0.3rem;margin-left: 0.2rem;
+    color:#c6c6c6;
+}
+.wode-lb-gd{
+    width: 0.29rem;height: 0.29rem;
+    background: url("../img/yiu.png") no-repeat;
+    background-size: contain;
+    opacity: 0.5;margin-top: 0.27rem;
+    float: right;
+}
+/*底部*/
+.footer{
+    width: 100%;height:1rem;
+    position: absolute;bottom: 0;left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    background: #f4f9fe;
+}
+.ctu{
+    width: 1rem;height: 1rem;
+    position: absolute;bottom:0;left: 0;
+}
+.ctu img{
+    width: 100%;height: 100%;
+}
+.liebiao{
+    width: 0.4rem;height: 0.4rem;
+    background: url("../img/liebiao.png") no-repeat;
+    background-size: contain;
+    position: absolute;bottom:0.3rem;right:2.3rem;
+}
+.bofang{
+    width: 0.4rem;height: 0.4rem;
+    position: absolute;bottom:0.3rem;right: 1.35rem;
+    background: url("../img/bofang.png") no-repeat;
+    background-size: contain;
+}
+.nextge{
+    width: 0.4rem;height: 0.4rem;
+    position: absolute;bottom:0.3rem;right: 0.5rem;
+    background: url("../img/nextge.png") no-repeat;
+    background-size: contain;
+}
+.dqge{
+    font-size: 0.26rem;
+    font-weight: 600;
+    position: absolute;top:0.21rem;left: 1.15rem;
+}
+.singer{
+    font-size: 0.14rem;
+    position: absolute;bottom:0.21rem;left: 1.15rem;
+}

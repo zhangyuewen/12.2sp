@@ -1,0 +1,129 @@
+*{
+    padding: 0;margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;height: 100%;
+    overflow: hidden;
+}
+.tou{
+    width: 100%;height: 1.35rem;
+    background: #00B4FE;
+    position: absolute;
+    top:0;left: 0;
+}
+.fanhui{
+    display: block;
+    width: 0.5rem;height: 0.5rem;
+    background: url("../img/fanhui.png") no-repeat;
+    background-size: contain;
+    position: absolute;top:0.4rem;left: 0.2rem;
+    opacity:0.5;
+}
+.tou span{
+    font-size: 0.32rem;
+    position:absolute;top:0.48rem;left: 0.8rem;
+    color: #fff;
+}
+.tou-s{
+    width: 0.5rem;height: 0.5rem;
+    background: url("../img/inlogo.png") no-repeat;
+    background-size: contain;
+    position:absolute;top:0.42rem;right:0.2rem;
+}
+#wrapper5 {
+    position: absolute;
+    /*z-index: 1;*/
+    top: 0px;
+    bottom: 48px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+#scroller5 {
+    position: absolute;
+    /*z-index: 1;*/
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+.gedan-con{
+    width: 100%;height: auto;
+    margin-top: 1.35rem;
+}
+.suiji{
+    width: 100%;height: 0.8rem;
+    margin: 0 auto;
+}
+.suiji-tu{
+    width: 0.35rem;height: 0.35rem;
+    background: url("../img/suyijtu.png") no-repeat;
+    background-size: contain;
+    float: left;
+    margin-top: 0.25rem;margin-left: 0.3rem;
+}
+.suiji span{
+    display: inline-block;
+    font-size: 0.34rem;
+    float: left;
+    margin-top: 0.25rem;margin-left: 0.2rem;
+}
+
+
+/*底部*/
+.footer{
+    width: 100%;height:1rem;
+    position: absolute;bottom: 0;left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    background: #f4f9fe;
+}
+.ctu{
+    width: 1rem;height: 1rem;
+    position: absolute;bottom:0;left: 0;
+}
+.ctu img{
+    width: 100%;height: 100%;
+}
+.liebiao{
+    width: 0.4rem;height: 0.4rem;
+    background: url("../img/liebiao.png") no-repeat;
+    background-size: contain;
+    position: absolute;bottom:0.3rem;right:2.3rem;
+}
+.bofang{
+    width: 0.4rem;height: 0.4rem;
+    position: absolute;bottom:0.3rem;right: 1.35rem;
+    background: url("../img/bofang.png") no-repeat;
+    background-size: contain;
+}
+.nextge{
+    width: 0.4rem;height: 0.4rem;
+    position: absolute;bottom:0.3rem;right: 0.5rem;
+    background: url("../img/nextge.png") no-repeat;
+    background-size: contain;
+}
+.dqge{
+    font-size: 0.26rem;
+    font-weight: 600;
+    position: absolute;top:0.21rem;left: 1.15rem;
+}
+.singer{
+    font-size: 0.14rem;
+    position: absolute;bottom:0.21rem;left: 1.15rem;
+}
